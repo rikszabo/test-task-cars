@@ -1,0 +1,30 @@
+.header {
+  background: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  z-index: 999;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  color: black;
+  font-weight: 600;
+}
+
+.urls {
+  text-align: right;
+}
+
+.navLink {
+  margin-right: 1rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

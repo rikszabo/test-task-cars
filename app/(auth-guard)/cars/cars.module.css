@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 10rem;
+  height: 120vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1024px;
+  margin: 5rem auto 10rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid black;
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  max-width: 302px;
+  margin: 0.5rem auto;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

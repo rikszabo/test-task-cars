@@ -1,0 +1,15 @@
+.name {
+  padding-top: 1rem;
+  font-weight: 600;
+  color: var(--primary-black);
+}
+
+.description {
+  padding: 1rem 1rem 0 1rem;
+  color: var(--primary-grey);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

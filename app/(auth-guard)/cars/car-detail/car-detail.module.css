@@ -1,0 +1,29 @@
+.box {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.wrapper {
+  width: 1024px;
+  min-height: 500px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  padding: 3rem;
+  color: var(--primary-black);
+}
+
+.description {
+  color: var(--primary-grey);
+  font-weight: 500;
+}
