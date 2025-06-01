@@ -10,6 +10,7 @@
     --primary-black: #000000;
     --primary-white: #ffffff;
     --primary-grey: #595959;
+    --primary-error: rgb(255, 105, 105);
   }
 }
 
